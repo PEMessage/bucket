@@ -1,0 +1,15 @@
+{
+    "version": "0.1.3",
+    "description": "Simple serial terminal for Windows console",
+    "homepage": "https://github.com/YaSuenag/SimpleCom",
+    "url": "https://github.com/YaSuenag/SimpleCom/releases/download/v0.1.3/SimpleCom-0.1.3.zip",
+    "extract_dir": "SimpleCom",
+    "bin": "SimpleCom.exe",
+    "hash": "6EA872ECBBA2E0CC2366A8C76E91BEBE80201C46E1410098F4C80E1AF401C10D",
+    "license": "GNU General Public License v2.0",
+    "$schema" : "github",
+    "autoupdate": {
+        "url": "https://github.com/YaSuenag/SimpleCom/releases/download/v$version/SimpleCom-$version.zip"
+    }
+  }
+
