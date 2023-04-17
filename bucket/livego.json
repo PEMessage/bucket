@@ -1,5 +1,5 @@
 {
-    "version": "0.0.14",
+    "version": "0.0.15",
     "description": "live video streaming server in golang",
     "homepage": "https://github.com/gwuhaolin/livego",
     "license": "MIT license",
