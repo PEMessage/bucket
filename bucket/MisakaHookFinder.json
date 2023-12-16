@@ -6,12 +6,12 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/hanmin0822/MisakaHookFinder/releases/download/1.1/MisakaHookFinderV1.1.rar",
-            "hash": " 8afe0fdf3c14ac7e60e801226d777fb5b8f8804392ca4c9646eac73f7aca1067",
+            "hash": "8afe0fdf3c14ac7e60e801226d777fb5b8f8804392ca4c9646eac73f7aca1067",
             "extract_dir": "MisakaHookFinderV1.1"
         },
         "32bit": {
             "url": "https://github.com/hanmin0822/MisakaHookFinder/releases/download/1.1/MisakaHookFinderV1.1.rar",
-            "hash": " 8afe0fdf3c14ac7e60e801226d777fb5b8f8804392ca4c9646eac73f7aca1067",
+            "hash": "8afe0fdf3c14ac7e60e801226d777fb5b8f8804392ca4c9646eac73f7aca1067",
             "extract_dir": "MisakaHookFinderV1.1"
         }
     },
