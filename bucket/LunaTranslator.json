@@ -6,29 +6,48 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/HIllya51/LunaTranslator/releases/download/v6.16.10/LunaTranslator.zip",
-            "extract_dir": "LunaTranslator",
-            "hash": "1ad971d4b8cfb8b72dc616dcae5e76ea25ddc280fe8d70581275ec5672162420"
+            "hash": "1ad971d4b8cfb8b72dc616dcae5e76ea25ddc280fe8d70581275ec5672162420",
+            "persist": [
+                ["userconfig","LunaTranslator\\userconfig"],
+                ["translation_record","LunaTranslator\\translation_record"],
+                ["cache","LunaTranslator\\cache"]
+            ],
+            "shortcuts": [
+                [
+                    "LunaTranslator\\LunaTranslator.exe",
+                    "LunaTranslator"
+                ],
+                [
+                    "LunaTranslator\\LunaTranslator_admin.exe",
+                    "LunaTranslator (Admin)"
+                ]
+            ]
         },
         "32bit": {
             "url": "https://github.com/HIllya51/LunaTranslator/releases/download/v6.16.10/LunaTranslator_x86.zip",
             "extract_dir": "LunaTranslator_x86",
-            "hash": "6bc20a4bf19eadda80809aac7f50d9cbad697edece6bdb398e0f0b90e498a4f1"
+            "hash": "6bc20a4bf19eadda80809aac7f50d9cbad697edece6bdb398e0f0b90e498a4f1",
+            "persist": [
+                ["userconfig","LunaTranslator_x86\\userconfig"],
+                ["translation_record","LunaTranslator_x86\\translation_record"],
+                ["cache","LunaTranslator_x86\\cache"]
+            ],
+            "shortcuts": [
+                [
+                    "LunaTranslator_x86\\LunaTranslator.exe",
+                    "LunaTranslator"
+                ],
+                [
+                    "LunaTranslator_x86\\LunaTranslator_admin.exe",
+                    "LunaTranslator (Admin)"
+                ]
+            ]
         }
     },
-    "shortcuts": [
-        [
-            "LunaTranslator.exe",
-            "LunaTranslator"
-        ],
-        [
-            "LunaTranslator_admin.exe",
-            "LunaTranslator (Admin)"
-        ]
-    ],
     "persist": [
-        "userconfig",
-        "translation_record",
-        "cache"
+        ["userconfig","LunaTranslator\\userconfig"],
+        ["translation_record","LunaTranslator\\translation_record"],
+        ["cache","LunaTranslator\\cache"]
     ],
     "checkver": {
         "script": [
