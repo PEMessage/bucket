@@ -45,9 +45,9 @@
         }
     },
     "persist": [
-        ["userconfig","LunaTranslator\\userconfig"],
-        ["translation_record","LunaTranslator\\translation_record"],
-        ["cache","LunaTranslator\\cache"]
+        "LunaTranslator\\userconfig",
+        "LunaTranslator\\translation_record",
+        "LunaTranslator\\cache"
     ],
     "checkver": {
         "script": [
