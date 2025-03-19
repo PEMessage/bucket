@@ -1,0 +1,13 @@
+{
+    "version": "v0.1.870726336",
+    "description": "WSL replacement for notify-send",
+    "homepage": "https://github.com/stuartleeks/wsl-notify-send",
+    "url": "https://github.com/stuartleeks/wsl-notify-send/releases/download/v0.1.870726336/wsl-notify-send_windows_amd64.zip",
+    "bin": "wsl-notify-send.exe",
+    "hash": "fa6ed2a3ca8bf1e79ef959ba9c3d3dd5271a9c9e3c346319212dc3ec8ca96e1f",
+    "license": "MIT",
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/stuartleeks/wsl-notify-send/releases/download/v$version/wsl-notify-send_windows_amd64.zip"
+    }
+}
